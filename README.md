@@ -55,7 +55,7 @@ This hugging face repo contains checkpoints of the SoundStream, the finetuned FL
 
 ### Acoustic token inference
 
-We provide some TSV files in `infer_tsv` directory for testing, together with configuration and dictionary files needed. The TSV files contain the input information needed for controllable SVS, where the file names correspond to the respective control attribute categories, and the prompt sentences included in these files match these attributes. You need to modify `text_encoder_version` and `audio_tokenizer_ckpt_path` in `config.yaml` to the paths on your own machine before inference.
+We provide some TSV files with a small batch of samples in `infer_tsv` directory for quick start, together with configuration and dictionary files needed. The TSV files contain the input information needed for controllable SVS, where the file names correspond to the respective control attribute categories, and the prompt sentences included in these files match these attributes. You need to modify `text_encoder_version` and `audio_tokenizer_ckpt_path` in `config.yaml` to the paths on your own machine before inference.
 
 Switch to the `Prompt-Singer` root directory, modify the relevant parameters and paths, then run the following command to generate acoustic units:
 
