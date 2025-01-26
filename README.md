@@ -17,7 +17,7 @@ overall_text_prompt = self.choose(gender = gender_label, volume = volume_label, 
 ```
 ---
 
-This re-implementation version differs slightly in details with the ones in the paper. We use a 16kHz SoundStream to extract acoustic units of the training data of the transformer (downsampled to 16kHz). The vocoder is still trained to generate 24kHz audio.
+This re-implementated version differs slightly in details with the ones in the paper. We use a 16kHz SoundStream to extract acoustic units of the training data of the transformer (downsampled to 16kHz). The vocoder is still trained to generate 24kHz audio.
 
 The correctness of this open-source version has not been fully verified. Feel free to create an issue if you find any problems.
 
